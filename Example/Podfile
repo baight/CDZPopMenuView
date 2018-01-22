@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CDZPopMenuView_Example' do
+  pod 'CDZPopMenuView', :path => '../'
+
+  target 'CDZPopMenuView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
