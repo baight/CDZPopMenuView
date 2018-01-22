@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CDZPopMenuView'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of CDZPopMenuView.'
 
 # This description is used to generate tags and improve search results.
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/chenzheng/CDZPopMenuView'
+  s.homepage         = 'https://github.com/baight/CDZPopMenuView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'chenzheng' => 'baight.chen@ximalaya.com' }
-  s.source           = { :git => 'https://github.com/chenzheng/CDZPopMenuView.git', :tag => s.version.to_s }
+  s.author           = { 'baight' => '303730915@qq.com' }
+  s.source           = { :git => 'https://github.com/baight/CDZPopMenuView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '6.0'
 
   s.source_files = 'CDZPopMenuView/Classes/**/*'
   

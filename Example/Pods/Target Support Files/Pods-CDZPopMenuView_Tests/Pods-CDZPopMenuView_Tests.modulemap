@@ -1,0 +1,6 @@
+framework module Pods_CDZPopMenuView_Tests {
+  umbrella header "Pods-CDZPopMenuView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

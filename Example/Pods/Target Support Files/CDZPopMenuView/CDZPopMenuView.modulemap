@@ -1,0 +1,6 @@
+framework module CDZPopMenuView {
+  umbrella header "CDZPopMenuView-umbrella.h"
+
+  export *
+  module * { export * }
+}
