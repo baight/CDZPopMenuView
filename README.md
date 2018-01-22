@@ -9,13 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
-## Installation
-
-CDZPopMenuView is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
 ![Image text](https://raw.githubusercontent.com/baight/CDZPopMenuView/master/Example/Example.gif)
 
 ```objective-c
@@ -44,6 +37,17 @@ menu.arrowDirection = CDZPopMenuArrowDirectionLeft;
     NSLog(@"%zd", selectedIndex);
 }];
 [menu showWithSender:button];
+```
+
+## Requirements
+
+## Installation
+
+CDZPopMenuView is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```objective-c
+pod 'CDZPopMenuView',:git =>'https://github.com/baight/CDZPopMenuView.git'
 ```
 
 ## Author
